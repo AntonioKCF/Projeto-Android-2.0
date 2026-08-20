@@ -155,8 +155,14 @@ article a{
     color: var(--cor3);
 
     font-weight: bold;
+}
 
+a{
     text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
 }
 
 p> a::after{
